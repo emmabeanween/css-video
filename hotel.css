@@ -1,0 +1,181 @@
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('fontone.otf');
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url('fonttwo.ttf');
+}
+
+@font-face {
+    font-family: myThirdFont;
+    src: url('regular.otf');
+}
+
+@font-face {
+    font-family: myFourthFont;
+    src: url('palmbeach.ttf');
+}
+@font-face {
+    font-family: myFifthFont;
+    src: url('beach.otf');
+}
+
+body {
+
+	margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    overflow: hidden;
+    background-color: rgb(23, 158, 79);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: 	#FFFFFF;
+    font-size: 30px;
+    font-family: myThirdFont;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+	
+	#backvideo {
+  position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+z-index: -1000;
+
+
+}
+
+
+h1 {
+
+	margin-top: 500px;
+	text-decoration-style: wavy;
+	color: black;
+	font-family: myFirstFont;
+	font-style: bold;
+	font-size: 60px;
+	margin-left: 550px;
+	margin-top: 200px;
+	   text-shadow: 2px 2px #f2f7f4;
+	    }
+
+
+	h2 {
+
+
+	margin-left: 540px;
+	font-style: italic;
+	font-family: myFirstFont;
+	font-style: bold;
+	   text-shadow: 2px 2px #f2f7f4;
+	   	font-size: 35px;
+	   		color: black;
+
+
+	}   
+h3 {
+
+	font-family: myFifthFont;
+	font-size: 50px;
+	margin-left: 750px;
+	color: black;
+}
+
+#one {
+ 
+ width: 300px;
+ height: 200px;
+ float: left;
+ margin-top: 80px;
+ background-color: rgb(49, 66, 191);
+ margin-left: 150px;
+ opacity: 0.9;
+ overflow: auto;
+
+}
+
+#two {
+ 
+ width: 300px;
+ height: 200px;
+ margin-left: 30px;
+ margin-top: 80px;
+ float: left;
+ background-color: rgb(49, 66, 191);
+  opacity: 0.9;
+  overflow: auto;
+
+}
+
+
+#three {
+ 
+ width: 300px;
+ height: 200px;
+ margin-left: 40px;
+ margin-top: 80px;
+float: left;
+ background-color: rgb(49, 66, 191);
+  opacity: 0.9;
+  overflow: auto;
+
+}
+
+#inner {
+
+ margin-top: 10px;
+ margin-left: 15px;
+ width: 90%;
+ height: 90%;
+ background-color: white;
+ opacity: 0.9;
+
+
+
+
+}
+
+
+#innertext {
+
+	text-decoration-line: none;
+	font-family: myFirstFont;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-left: 20px;
+	color: rgb(244, 66, 95);
+
+
+}
+
+#img {
+
+  width: 20px;
+  height: 30px;
+
+}
